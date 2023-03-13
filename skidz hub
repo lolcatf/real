@@ -1,0 +1,31 @@
+# AV
+-- [ smd EZZY09 ur a skid lol wtf this dumbass just started scripting ui's and is already getting into beef like wtf go get back ] --
+
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({Name = "Skidz Hub V4 (Town)", HidePremium = false, SaveConfig = true, ConfigFolder = "so many skidz stealing LOL"})
+
+local Tab = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://11347112400",
+	PremiumOnly = false
+})
+
+local Section = Tab:AddSection({
+	Name = "Player"
+})
+
+Tab:AddSlider({
+	Name = "Walkspeed",
+	Min = 0,
+	Max = 20,
+	Default = 5,
+	Color = Color3.fromRGB(255,255,255),
+	Increment = 1,
+	ValueName = "WalkSpeed",
+	Callback = function(Value)
+		print(Value)
+	end    
+})
+
+print("this shit is unfinished lol so dont even try leaking cuz imma make a new ver. stfu pmackk")
